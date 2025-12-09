@@ -1,0 +1,158 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{xcolor} % For custom colors
+\usepackage{enumitem} % For adjusting spacing in itemize
+\usepackage{mathptmx} % Times New Roman font
+\usepackage{tabularx} % For tabularx environment
+\usepackage{hyperref} % For clickable links
+
+% Page layout
+\geometry{top=0.5in, bottom=0.3in, left=1in, right=1in}
+
+% Custom color for section titles
+\definecolor{darkblue}{RGB}{0, 51, 102} % Define dark blue color
+
+% Hyperlink settings
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    urlcolor=black
+}
+
+% Formatting for section titles with horizontal lines
+\titleformat{\section}[block]{\large\bfseries\color{darkblue}}{}{0em}{} % No numbering
+
+\titlespacing{\section}{0pt}{*2}{*1} % Adjust spacing around sections (less space before and after)
+
+\newcommand{\sectionline}{
+    \noindent\rule{\textwidth}{0.5pt} % Horizontal line below section titles
+}
+
+% Define custom fonts for name and headings - reduced size
+\newcommand{\cvname}[1]{\Large\textbf{#1}}
+\newcommand{\cvsection}[1]{
+    \section{#1} % Suppress numbering using titleformat
+    \vspace{-1.0em} % Adjust spacing below title
+    \sectionline
+}
+
+% Reduce spacing between items in itemize
+\setlist{nosep, topsep=0pt, itemsep=2pt} % Less space between bullets and no extra space at the top of the list
+
+% Add more space after itemize (between the last item and next title)
+\newenvironment{cvitemize}
+  {\begin{itemize}}
+  {\end{itemize}\vspace{0.8em}} % Adjust vertical spacing after itemize
+
+\pagestyle{empty}
+\begin{document}
+
+% Name and Contact Information
+\noindent
+\begin{tabularx}{\textwidth}{@{}X r@{}}
+    \cvname{JAN AGUILÓ PLANA} & {\small Pujals dels Pagesos 7, 17844, Catalonia} \\
+\end{tabularx}
+\vspace{-1.5em} % Reduce space before next section
+
+\noindent\rule{\textwidth}{1pt}
+
+% Email, phone, and links directly below the line
+\noindent
+\begin{tabularx}{\textwidth}{@{}l X r@{}}
+     {\rmfamily \href{www.janagui7.com}{\textbf{www.janagui7.com}} }\\
+\end{tabularx}
+\vspace{0em} % Reduce space before next section
+
+% Education Section
+\cvsection{EDUCATION}
+\textbf{Universitat Pompeu Fabra (UPF)} \hfill \textbf{Barcelona, Spain} \\
+\textit{Degree in Mathematical Engineering in Data Science (Fully in English)} \hfill \textit{2022 -- 2026} \\
+\vspace{-0.5em} % Reduce space before first bullet point
+\begin{cvitemize}
+    \item \textbf{GPA: 8.75/10} - Honor mention in 6+ subjects
+    
+    \item Founding Board Member of the Engineering Hub · Minor in Entrepreneurship · Member of the Entrepreneurship Society
+\end{cvitemize}
+\vspace{0.7em} % Reduce space before next section
+
+\noindent \textbf{University of British Columbia (UBC)} \hfill \textbf{Vancouver, Canada} \\
+\textit{Upcoming exchange student} \hfill \textit{Jan 2026 -- May 2026} \\
+
+\vspace{0.7em} % Reduce space before next section
+
+\noindent \textbf{London School of Economics and Political Sciences (LSE)} \hfill \textbf{London, United Kingdom} \\
+\textit{Summer School: AC101 Managerial Accounting and Financial Control} \hfill \textit{Jul 2024} \\
+\vspace{-1em} % Reduce space before first bullet point
+\begin{cvitemize}
+    \item Grade: A+
+\end{cvitemize}
+
+
+%\noindent \textbf{ABC Bootcamps} \hfill \textbf{\textit{Toronto, Canada}} \\
+%\textit{Entrepreneurship Studies} \hfill \textit{Jul 2023 -- Aug 2023} \\
+%\vspace{-1em} % Reduce space before first bullet point
+%\begin{cvitemize}
+   % \item Grade: 9.26/10 - Used BMC to develop and pitch startup ideas
+%\end{cvitemize}
+
+\vspace{0.7em} % Reduce space before next section
+
+% Experience Section
+\cvsection{EXPERIENCE}
+\noindent \textbf{REVER (YC S22)} \hfill \textbf{Barcelona, Spain} \\
+\textit{Product Automations Intern} \hfill \textit{Apr 2025 -- Sep 2025} \\
+\vspace{-0.5em} % Reduce space before first bullet point
+\begin{cvitemize}
+    \item Joined after winning an internal hackathon (while drunk), outperforming 30+ candidates; hired immediately after.
+    \item Took full ownership of logistics integrations from day one, delivering end-to-end solutions across carriers, 3PLs, and ERPs despite poor API documentations.
+    \item Unblocked €3M+ GTV and generated €200k+ revenue through custom logistics automations.
+\end{cvitemize}
+\vspace{0.7em} % Reduce space before next section
+
+
+
+
+
+% Volunteering section
+\cvsection{VOLUNTEERING \& PROJECTS}
+\textbf{€10k Winner, AI Search Analytics Hackathon (Peec.ai)} &- We built a Chrome extension that captures LLM prompts and shows relevant discount coupons. Classified user intent and clustered queries to generate actionable brand insights for GEO.
+\vspace{0.5em} % Reduce space before next section
+
+\noindent \textbf{Start Hack St. Gallen 2025} &- Innovative AI interaction for Financial Insight
+\vspace{0.5em} % Reduce space before next section
+
+\noindent \textbf{Runner-Up Award (Berlin)} &- Visualized Holocaust victims’ journeys and built a storytelling chatbot
+\vspace{0.5em} % Reduce space before next section
+
+\noindent \textbf{Datathon FME (UPC)} &- AVM to Predict Property Prices
+\vspace{0.5em} % Reduce space before next section
+
+\noindent \textbf{Finalist - CICAE Debate League (High School)} &- One of Europe’s top debate leagues with 40+ participating schools.
+\vspace{0.5em} % Reduce space before next section
+
+%\noindent \textbf{Debate League CICAE} \hfill \textbf{\textit{Madrid, Spain}} \\
+%\textit{Finalist (Remote)} \hfill \textit{Feb 2021 -- Mar 2021} \\
+%\vspace{-1em} % Reduce space before first bullet point
+%\begin{cvitemize}
+    %\item One of the most important debate leagues in Europe where students from more than 40 schools participate.
+%\end{cvitemize}
+
+%\noindent \textbf{MMUN Congress (Montessori Model of United Nations)} \hfill \textbf{\textit{Rome, Italy}} \\
+%\textit{Participant} \hfill \textit{May 2019} \\
+
+\vspace{0.7em} % Reduce space before next section
+
+% Additional info section
+\cvsection{ADDITIONAL INFORMATION}
+\textit{Languages:} &English Proficient, Spanish and Catalan Native, French Intermediate, German Beginner 
+\vspace{0.5em} % Reduce space before next section
+
+\noindent \textit{Technical Skills:} &Python, SQL, Zapier, CLI, Docker, AI, LLM, ML, Deep Learning
+\vspace{0.5em} % Reduce space before next section
+
+\noindent \textit{Interests:} &Paul Graham's essays, Startups, Reading, Human Psychology, Traveling \\
+
+\end{document} 
