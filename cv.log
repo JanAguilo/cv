@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.12.7)  9 DEC 2025 20:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.12.7)  22 DEC 2025 21:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -342,97 +342,7 @@ Underfull \hbox (badness 10000) in alignment at lines 66--66
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 75.
 (C:\Users\janag\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 81--83
-
- []
-
-c:/Users/janag/OneDrive/Documentos/GitHub/cv/cv.tex:121: Misplaced alignment tab character &.
-l.121 ...I Search Analytics Hackathon (Peec.ai)} &
-                                                  - We built a Chrome extens...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/janag/OneDrive/Documentos/GitHub/cv/cv.tex:124: Misplaced alignment tab character &.
-l.124 ...ent \textbf{Start Hack St. Gallen 2025} &
-                                                  - Innovative AI interactio...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/janag/OneDrive/Documentos/GitHub/cv/cv.tex:127: Misplaced alignment tab character &.
-l.127 ...ndent \textbf{Runner-Up Award (Berlin)} &
-                                                  - Visualized Holocaust vic...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/janag/OneDrive/Documentos/GitHub/cv/cv.tex:130: Misplaced alignment tab character &.
-l.130 \noindent \textbf{Datathon FME (UPC)} &
-                                             - AVM to Predict Property Prices
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/janag/OneDrive/Documentos/GitHub/cv/cv.tex:133: Misplaced alignment tab character &.
-l.133 ...st - CICAE Debate League (High School)} &
-                                                  - One of Europe’s top de...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/janag/OneDrive/Documentos/GitHub/cv/cv.tex:150: Misplaced alignment tab character &.
-l.150 \textit{Languages:} &
-                           English Proficient, Spanish and Catalan Native, F...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/janag/OneDrive/Documentos/GitHub/cv/cv.tex:153: Misplaced alignment tab character &.
-l.153 \noindent \textit{Technical Skills:} &
-                                            Python, SQL, Zapier, CLI, Docker...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-c:/Users/janag/OneDrive/Documentos/GitHub/cv/cv.tex:156: Misplaced alignment tab character &.
-l.156 \noindent \textit{Interests:} &
-                                     Paul Graham's essays, Startups, Reading...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 156--157
-
- []
-
-[1
+) [1
 
 {C:/Users/janag/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/janag/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}] (cv.aux)
  ***********
@@ -443,15 +353,15 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: 6FF5EA6B47A6046B7E5C369A4AFE6EB8;504.
  ) 
 Here is how much of TeX's memory you used:
- 10170 strings out of 474486
- 158060 string characters out of 5743755
- 1938542 words of memory out of 5000000
- 32325 multiletter control sequences out of 15000+600000
+ 10172 strings out of 474486
+ 158120 string characters out of 5743755
+ 1940542 words of memory out of 5000000
+ 32327 multiletter control sequences out of 15000+600000
  587882 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,79p,331b,434s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,79p,330b,434s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/janag/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/janag/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/janag/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on cv.pdf (1 page, 58324 bytes).
+Output written on cv.pdf (1 page, 58743 bytes).
 PDF statistics:
  46 PDF objects out of 1000 (max. 8388607)
  6 named destinations out of 1000 (max. 500000)
