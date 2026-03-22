@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.12.7)  18 MAR 2026 16:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.12.7)  22 MAR 2026 15:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -342,7 +342,12 @@ Underfull \hbox (badness 10000) in alignment at lines 66--66
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 75.
 (C:\Users\janag\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [1
+)
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
+
+ []
+
+[1
 
 {C:/Users/janag/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/janag/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}] (cv.aux)
  ***********
@@ -350,18 +355,18 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `cv.out' has not changed.
-(rerunfilecheck)             Checksum: 6FF5EA6B47A6046B7E5C369A4AFE6EB8;504.
+(rerunfilecheck)             Checksum: 7A3D41C00241CB898F6692DF5B133221;504.
  ) 
 Here is how much of TeX's memory you used:
  10170 strings out of 474486
  158060 string characters out of 5743755
- 1939542 words of memory out of 5000000
+ 1942542 words of memory out of 5000000
  32325 multiletter control sequences out of 15000+600000
  587882 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,79p,326b,434s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,10n,79p,365b,434s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/janag/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/janag/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/janag/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on cv.pdf (1 page, 60075 bytes).
+Output written on cv.pdf (1 page, 60255 bytes).
 PDF statistics:
  46 PDF objects out of 1000 (max. 8388607)
  6 named destinations out of 1000 (max. 500000)
